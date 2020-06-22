@@ -1,0 +1,155 @@
+
+
+/* Main Section */
+
+.main-section {
+	margin-top: 4%;
+	text-align: center;
+font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.main-section .big-heading {
+	margin-top: 5%;
+	font-size: 2.7rem;
+
+  font-weight: 600;
+  color: hsl(0, 0%, 59%);
+}
+
+.main-section .sub-heading {
+	margin-top: 2%;
+	font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  color: hsl(209, 33%, 12%);
+
+}
+
+.font-weight-light {
+  font-weight: 200;
+}
+
+
+.soon {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+
+.main-container {
+  max-width: 360px;
+  margin: auto;
+}
+
+
+
+.illustration {
+  width: 65%;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+
+.email-btn,
+.submit-btn {
+  border: none;
+  padding: 16px 35px;
+  border-radius: 45px;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.email-btn {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid hsl(223, 100%, 88%);
+}
+
+
+.email-btn::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+.email-btn:focus {
+  outline: none;
+}
+
+.submit-btn {
+  background: hsl(223, 87%, 63%);
+  color: #fff;
+  box-shadow: 0px 4px 8px hsl(223, 100%, 88%);
+  margin-bottom: 80px;
+  transition: .3s all ease-in-out;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 8px 16px hsl(223, 100%, 88%);
+}
+
+.message {
+  display: none;
+  text-align: center;
+}
+
+.input-field {
+  position: relative;
+}
+
+.social-container {
+  width: 200px;
+  display: flex;
+  margin: 150px auto 40px;
+  justify-content: space-evenly;
+ 
+}
+
+.social-item {
+  height: 45px;
+  width: 45px;
+  border: 2px solid hsl(0, 0%, 91%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: hsl(223, 87%, 63%);
+}
+
+.text {
+font-family: 'Libre Franklin', sans-serif;
+  color: hsl(0, 0%, 59%);
+}
+
+.copy-text {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.email-error {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.email-error > input{
+  border-color: hsl(354, 100%, 66%);
+  position: relative;
+}
+
+.message {
+  display: none;
+  text-align: center;
+}
+
+
